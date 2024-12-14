@@ -2,7 +2,7 @@ export const personalData = {
   name: "Manasvi Gaur",
   profile: '/profile.png',
   designation: "Software Developer",
-  description: "My name is Manasvi Gaur. I am a professional and enthusiastic programmer in my daily life. I am a quick learner with a self-learning attitude. I love to learn and explore new technologies and am passionate about problem-solving. Skilled in Java, Python, Machine Learning, and web development technologies, I have developed notable projects like the Air Drawing app and the Bliss Buy e-commerce platform. As a contributor at Open HealthCare Network, it improved system performance by 10%. I also co founded Awekon, an augmented reality startup. Won hackathons and certified in Data Structures and Algorithms.",
+  description: "I am Manasvi Gaur, a Computer Science Engineering student at Bennett University with a CGPA of 9.21. Passionate about AI, machine learning, and software development, I’ve worked on innovative projects like ZRENet and Bliss Buy. Recognized for achievements such as winning ENIGMA’24 Hackathon and being on the Dean’s Honour List, I thrive on solving complex problems and driving impactful solutions.",
   email: 'manasvigaur3@gmail.com',
   phone: '+91 9511319440',
   address: 'Laxmi Nagar, Jaipur, Rajasthan, India ',
