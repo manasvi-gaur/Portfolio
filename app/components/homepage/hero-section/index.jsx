@@ -46,6 +46,12 @@ function HeroSection() {
             >
               <BsLinkedin size={30} />
             </Link>
+            <Link
+             href={personalData.leetcode}
+             target='_blank'
+             className="transition-all text-[#ffea4a]  hover:scale-125 duration-300">
+            <SiLeetcode size={30} />
+            </Link>
             
           </div>
 
