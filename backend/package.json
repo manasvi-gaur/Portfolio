@@ -2,9 +2,9 @@
     "name": "portfolio-backend",
     "version": "1.0.0",
     "description": "Backend for Portfolio Contact Form",
-    "main": "index.js",
+    "main": "server.js",
     "scripts": {
-      "start": "node index.js"
+      "start": "node server.js"
     },
     "dependencies": {
       "body-parser": "^1.19.0",
@@ -14,7 +14,7 @@
       "nodemon": "^3.1.4"
 
     },
-    "author": "Your Name",
+    "author": "Manasvi",
     "license": "ISC"
   }
   

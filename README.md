@@ -1,6 +1,6 @@
 # Developer Portfolio
 
-## View live preview [here](https://abusaid.netlify.app/).
+## View live preview [here](https://manasvigaur.vercel.app/).
 
 ---
 
