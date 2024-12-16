@@ -32,6 +32,12 @@ function Navbar() {
           <li>
             <Link className="block px-4 py-2 no-underline outline-none hover:no-underline" href="/#projects"><div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">PROJECTS</div></Link>
           </li>
+          <li>
+            <Link className="block px-4 py-2 no-underline outline-none hover:no-underline" href="/#blogs"><div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">CERTIFICATES</div></Link>
+          </li>
+          {/* <li>
+            <Link className="block px-4 py-2 no-underline outline-none hover:no-underline" href="/#reasearch"><div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">RESEARCH</div></Link>
+          </li> */}
         </ul>
       </div>
     </nav>

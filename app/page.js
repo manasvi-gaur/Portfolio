@@ -4,6 +4,7 @@ import Blog from "./components/homepage/blog";
 import ContactSection from "./components/homepage/contact";
 import Education from "./components/homepage/education";
 import Experience from "./components/homepage/experience";
+import Research from "./components/homepage/Reasearch";
 import HeroSection from "./components/homepage/hero-section";
 import Projects from "./components/homepage/projects";
 import Skills from "./components/homepage/skills";
@@ -54,10 +55,10 @@ export default async function Home() {
       <Experience />
       {/* Awards */}
       {/* Reasearch */}
-
+      <Research/>
       {/* Certificate */}
       <Blog blogs={blogs}/>
-      
+
       <Skills />
       <ContactSection />
     </>
