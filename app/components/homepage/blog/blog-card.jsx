@@ -2,7 +2,8 @@
 import { timeConverter } from '@/utils/time-converter';
 import Image from 'next/image';
 import Link from 'next/link';
-import { BsHeartFill } from 'react-icons/bs';
+// import { BsHeartFill } from 'react-icons/bs';
+import { BsFillAwardFill } from 'react-icons/bs';
 import { FaCommentAlt } from 'react-icons/fa';
 
 function BlogCard({ blog }) {
@@ -21,18 +22,19 @@ function BlogCard({ blog }) {
       </div>
       <div className="p-2 sm:p-3 flex flex-col">
         <div className="flex justify-between items-center text-[#16f2b3] text-sm">
-          <p>{timeConverter(blog.published_at)}</p>
+          {/* <p>{timeConverter(blog.published_at)}</p> */}
           <div className="flex items-center gap-3">
             <p className="flex items-center gap-1">
-              <BsHeartFill />
-              <span>{blog.public_reactions_count}</span>
+              {/* <BsHeartFill /> */}
+              <BsFillAwardFill/>
+              {/* <span>{blog.public_reactions_count}</span> */}
             </p>
-            {blog.comments_count > 0 &&
+            {/* {blog.comments_count > 0 &&
               <p className="flex items-center gap-1">
                 <FaCommentAlt />
                 <span>{blog.comments_count}</span>
               </p>
-            }
+            } */}
           </div>
         </div>
         <Link target='_blank' href={blog.url}>
@@ -40,9 +42,9 @@ function BlogCard({ blog }) {
             {blog.title}
           </p>
         </Link>
-        <p className='mb-2 text-sm text-[#16f2b3]'>
+        {/* <p className='mb-2 text-sm text-[#16f2b3]'>
           {`${blog.reading_time_minutes} Min Read`}
-        </p>
+        </p> */}
         <p className='text-sm lg:text-base text-[#d3d8e8] pb-3 lg:pb-6 line-clamp-3'>
           {blog.description}
         </p>

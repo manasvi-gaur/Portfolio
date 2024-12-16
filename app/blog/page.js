@@ -15,7 +15,74 @@ async function getBlogs() {
 };
 
 async function page() {
-  const blogs = await getBlogs();
+  const blogs = [
+    {
+      cover_image:"/image/real-estate.jpg",
+      title: "Real Estate",
+      description: "Real Estate is a type of property that is used for residential or commercial purposes.",
+      url:"/blog"
+    },
+    {
+      cover_image:"/image/real-estate.jpg",
+      title: "Real Estate",
+      description: "Real Estate is a type of property that is used for residential or commercial purposes.",
+      url:"/blog"
+    },
+    {
+      cover_image:"/image/real-estate.jpg",
+      title: "Real Estate",
+      description: "Real Estate is a type of property that is used for residential or commercial purposes.",
+      url:"/blog"
+    },
+    {
+      cover_image:"/image/real-estate.jpg",
+      title: "Real Estate",
+      description: "Real Estate is a type of property that is used for residential or commercial purposes.",
+      url:"/blog"
+    },
+    {
+      cover_image:"/image/real-estate.jpg",
+      title: "Real Estate",
+      description: "Real Estate is a type of property that is used for residential or commercial purposes.",
+      url:"/blog"
+    },
+    {
+      cover_image:"/image/real-estate.jpg",
+      title: "Real Estate",
+      description: "Real Estate is a type of property that is used for residential or commercial purposes.",
+      url:"/blog"
+    },
+    {
+      cover_image:"/image/real-estate.jpg",
+      title: "Real Estate",
+      description: "Real Estate is a type of property that is used for residential or commercial purposes.",
+      url:"/blog"
+    },
+    {
+      cover_image:"/image/real-estate.jpg",
+      title: "Real Estate",
+      description: "Real Estate is a type of property that is used for residential or commercial purposes.",
+      url:"/blog"
+    },
+    {
+      cover_image:"/image/real-estate.jpg",
+      title: "Real Estate",
+      description: "Real Estate is a type of property that is used for residential or commercial purposes.",
+      url:"/blog"
+    },
+    {
+      cover_image:"/image/real-estate.jpg",
+      title: "Real Estate",
+      description: "Real Estate is a type of property that is used for residential or commercial purposes.",
+      url:"/blog"
+    },
+    {
+      cover_image:"/image/real-estate.jpg",
+      title: "Real Estate",
+      description: "Real Estate is a type of property that is used for residential or commercial purposes.",
+      url:"/blog"
+    }
+  ];
 
   return (
     <div className="py-8">
@@ -30,6 +97,7 @@ async function page() {
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 md:gap-5 lg:gap-8 xl:gap-10">
+        {/* <h1>jhansxi</h1> */}
         {
           blogs.map((blog, i) => (
             blog?.cover_image &&
