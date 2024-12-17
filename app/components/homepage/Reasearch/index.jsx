@@ -45,7 +45,7 @@ function Research() {
 
           <div>
             <div className="flex flex-col gap-6">
-              {researches.map((researches) => (
+              {researches.map((researches,key) => (
                 // old experience glow card
 
                 // <GlowCard key={experience.id} identifier={`experience-${experience.id}`}>
@@ -80,9 +80,8 @@ function Research() {
 
                 // new experience glow card
 
-                <div className="relative group">
+                <div key={experience.id} className="relative group">
                   <GlowCard
-                    key={experience.id}
                     identifier={`experience-${experience.id}`}
                   >
                     <div className="p-3 relative">
