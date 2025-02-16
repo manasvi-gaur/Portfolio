@@ -117,6 +117,16 @@ function HeroSection() {
                 <span className="text-amber-300">CSS</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">HTML</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Node Js</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Express Js</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Docker</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Redis</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">GraghQL</span>
                 <span className="text-gray-400">{"'],"}</span>
               </div>
               <div>
