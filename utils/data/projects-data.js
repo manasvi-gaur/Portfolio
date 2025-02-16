@@ -4,24 +4,24 @@ import realEstate from '/public/image/real-estate.jpg';
 import travel from '/public/image/travel.jpg';
 
 export const projectsData = [
-    {
-        id: 1,
-        name: 'Air Canvas',
-        description: "Produced a real-time drawing app that has a 95% accuracy rate. The recognition of finger gestures can be accurately detected using OpenCV, Mediapipe, and Python. Implemented advanced algorithms to ensure a smooth and responsive drawing experience, enhancing user interaction and precision.",
-        tools: ['Python', 'Mediapipe', 'OpenCV', ],
-        role: 'Developer',
-        code: '',
-        demo: '',
-        image: ayla,
-    },
+    // {
+    //     id: 1,
+    //     name: 'Air Canvas',
+    //     description: "Produced a real-time drawing app that has a 95% accuracy rate. The recognition of finger gestures can be accurately detected using OpenCV, Mediapipe, and Python. Implemented advanced algorithms to ensure a smooth and responsive drawing experience, enhancing user interaction and precision.",
+    //     tools: ['Python', 'Mediapipe', 'OpenCV', ],
+    //     role: 'Developer',
+    //     code: '',
+    //     demo: '',
+    //     image: ayla,
+    // },
     {
         id: 2,
         name: 'Eccomerce Website "BlissBuy"',
-        description: 'Architected “BlissBuy" e-commerce site with price optimization AI, responsive web design.Achieved client conversion rates by 25%, enhancing the overall user experience. ',
-        tools: ['ReactJS', 'Tailwind CSS', "Javascript", "RazorPay", "MongoDB",],
+        description: 'Built a high-performance e-commerce platform using Redux Toolkit, optimizing API calls by 35%. The Node.js and MongoDB backend improved query execution by 40%, while Razorpay integration ensured a 98% transaction success rate. Implementing JWT authentication secured access, and Dockerization reduced deployment time by 50%.',
+        tools: ['ReactJS', 'Tailwind CSS', "Javascript", "RazorPay", "MongoDB","ExpressJS","NodeJS"],
         role: 'Full Stack Developer',
-        code: '',
-        demo: '',
+        code: 'https://github.com/manasvi-gaur/blissbuy',
+        demo: 'https://blissbuy.vercel.app/',
         image: crefin,
     },
     // {
@@ -37,10 +37,10 @@ export const projectsData = [
     {
         id: 4,
         name: 'Social Media App "SKET"',
-        description: "Implemented inclusive communication features can maximize user engagement by 15%, including chat, call, and collaboration, using Android Studio, Java, XML, and Firebase.",
+        description: "Developed a social media app for Android using Java and XML, reducing message latency to under 200ms with Firebase Firestore for real-time chat. Optimizing UI/UX with RecyclerView and ViewPager improved navigation speed by 30%. Implementing CRUD operations and Firebase Storage enhanced content management and boosted image retrieval speed by 40%.",
         tools: ['Android Studio', 'Java', 'XML', 'Firebase'],
-        code: '',
-        demo: '',
+        code: 'https://github.com/manasvi-gaur/SKET',
+        demo: 'https://github.com/manasvi-gaur/SKET/releases/tag/v1.0.0-alpha',
         image: travel,
         role: 'Android Developer',
     }
