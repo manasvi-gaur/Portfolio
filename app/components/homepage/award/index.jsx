@@ -303,12 +303,12 @@ const Awards = () => {
       <section className="ag-section" ref={timelineRef}>
         <div className="ag-format-container">
           <div className="js-timeline ag-timeline">
-            {/* <div className="js-timeline_line ag-timeline_line">
+            <div className="js-timeline_line ag-timeline_line">
               <div
                 ref={timelineLineProgressRef}
                 className="js-timeline_line-progress ag-timeline_line-progress"
               ></div>
-            </div> */}
+            </div>
 
             <div className="ag-timeline_list">
               {timelineItems.map((item, index) => (

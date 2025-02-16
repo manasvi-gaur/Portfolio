@@ -55,7 +55,7 @@ export default async function Home() {
       <Projects />
       <Experience />
       {/* Awards */}
-      {/* <Awards/> */}
+      <Awards/>
       {/* Reasearch */}
       <Research/>
       {/* Certificate */}
